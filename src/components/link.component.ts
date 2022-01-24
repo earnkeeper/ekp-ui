@@ -13,4 +13,5 @@ export interface LinkProps extends DefaultProps {
   content: Rpc | string;
   href: Rpc | string;
   external?: boolean;
+  externalIcon?: boolean;
 }

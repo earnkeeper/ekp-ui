@@ -1,3 +1,4 @@
+export * from '../util/layout.helper';
 export * from './button.component';
 export * from './card.component';
 export * from './col.component';
@@ -9,10 +10,10 @@ export * from './icon.component';
 export * from './image.component';
 export * from './input.component';
 export * from './label-wrapper.component';
-export * from '../util/layout.helper';
 export * from './link.component';
 export * from './milestone-wrapper.component';
 export * from './page-header-tile.component';
+export * from './premium-only.component';
 export * from './price-link.component';
 export * from './row.component';
 export * from './span.component';
