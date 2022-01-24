@@ -1,6 +1,6 @@
 {
   "name": "@earnkeeper/ekp-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Typescript helpers for the EarnKeeper.io UI protocol",
   "homepage": "https://github.com/earnkeeper/ekp-ui#readme",
   "repository": {
