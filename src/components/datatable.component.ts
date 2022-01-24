@@ -18,6 +18,7 @@ export interface DatatableProps extends DefaultProps {
   pagination?: RpcOrPrimitive;
   paginationPerPage?: RpcOrPrimitive;
   onRowClicked?: Rpc;
+  isBusy?: string | Rpc;
 }
 
 export interface DatatableColumn {
