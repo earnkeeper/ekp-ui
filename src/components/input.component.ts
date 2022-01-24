@@ -10,6 +10,6 @@ export function Input(props: InputProps): UiElement {
 }
 
 export interface InputProps extends DefaultProps {
-  label: string | Rpc;
-  value: string | Rpc;
+  label?: string | Rpc;
+  name: string;
 }

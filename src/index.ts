@@ -3,3 +3,4 @@ export * from './default.props';
 export * from './rpc';
 export * from './rpc.types';
 export * from './ui.element';
+export * from './util';

@@ -9,5 +9,5 @@ export function Row(props?: RowProps): UiElement {
 }
 
 export interface RowProps extends DefaultProps {
-  children?: UiElement[];
+  readonly children?: UiElement[];
 }

@@ -11,7 +11,6 @@ export function Form(props: FormProps): UiElement {
 
 export interface FormProps extends DefaultProps {
   readonly name: Rpc | string;
-  readonly schema: any;
-  readonly uischema: any;
-  readonly submitLabel?: Rpc | string;
+  readonly schema: Record<string, any>;
+  readonly child: UiElement;
 }
